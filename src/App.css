@@ -19,6 +19,11 @@
   color: white;
 }
 
+.main-body {
+  display: flex;
+  flex-direction: column;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -30,4 +35,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.dropdown-item {
+  width: inherit !important;
 }
