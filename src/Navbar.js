@@ -5,7 +5,7 @@ import {LinkContainer} from 'react-router-bootstrap';
 export default class extends Component {
   render() {
     return (
-      <Navbar collapseOnSelect>
+      <Navbar collapseOnSelect bg="dark" variant="dark">
         <Navbar.Header>
           <Navbar.Brand>
             <a href="/">Philip Whitehouse</a>
