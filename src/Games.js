@@ -30,7 +30,7 @@ class Games extends Component {
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
-        <Button variant="primary" href={"https://philipwhiuk.github.io/"+fragment}>Visit Site</Button>
+        <Button variant="primary" href={"https://philipwhiuk.github.io/"+fragment+"/"}>Visit Site</Button>
       </Card.Body>
     </Card>;
   }
