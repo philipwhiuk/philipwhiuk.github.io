@@ -20,15 +20,18 @@ class SiteNavbar extends Component {
             <Nav.Link>Blog</Nav.Link>
           </LinkContainer>
           <NavDropdown title="Projects" id="collasible-nav-dropdown">
-            <LinkContainer to="/projects/serpentine">
-              <NavDropdown.Item>Serpentine</NavDropdown.Item>
-            </LinkContainer>
+          <LinkContainer to="/projects/talks">
+            <NavDropdown.Item>Talks</NavDropdown.Item>
+          </LinkContainer>
             <LinkContainer to="/projects/open-source">
               <NavDropdown.Item>Open Source</NavDropdown.Item>
             </LinkContainer>
             <LinkContainer to="/projects/games">
               <NavDropdown.Item>Games</NavDropdown.Item>
             </LinkContainer>
+              <LinkContainer to="/projects/serpentine">
+                <NavDropdown.Item>Serpentine</NavDropdown.Item>
+              </LinkContainer>
             <LinkContainer to="/projects/history">
               <NavDropdown.Item>Historical Content</NavDropdown.Item>
             </LinkContainer>

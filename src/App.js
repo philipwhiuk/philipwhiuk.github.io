@@ -7,6 +7,7 @@ import Blog from './Blog';
 import Serpentine from './Serpentine';
 import OpenSource from './OpenSource';
 import Games from './Games';
+import Talks from './Talks';
 import Historical from './Historical';
 import Contact from './Contact';
 import CV from './CV';
@@ -22,6 +23,7 @@ class App extends Component {
         <Route path="/projects/open-source" component={OpenSource} />
         <Route path="/projects/serpentine" component={Serpentine} />
         <Route path="/projects/games" component={Games} />
+        <Route path="/projects/talks" component={Talks} />
         <Route path="/projects/history" component={Historical} />
         <Route path="/cv" component={CV} />
         <Route path="/contact" component={Contact} />
