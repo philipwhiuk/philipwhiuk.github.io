@@ -24,7 +24,8 @@ class Games extends Component {
           <span>
             At the time LD 25 ('You Are The Villan') launched I was trying to write small Java games.
             I wrote a partial attempt at a room-exploration game - the original premise was going to be around infiltrating a base.
-            Unfortunately Java applet technology in browsers has pretty much died.
+            Unfortunately Java applet technology in browsers has pretty much died
+            so the original deployment mechanism doesn't work.
             At some point I might pick this prototype up and re-release it as a more complete game.
             </span>,
           "ludumdare25")}
