@@ -20,6 +20,12 @@ class Games extends Component {
           "MUD Game is a proto-type MUD. It aims to expand on classical MUD paradigms and the work done in Text RPG",
           "mud-game")}
         {this.renderGame(
+          "JRogue",
+          <span>
+            An initial implementation of a Rogue-like featuring a dungeon generation algorithm.
+            </span>,
+          "JRogue")}
+        {this.renderGame(
           "2D Games",
           <span>
             When I first starting making games in Java I knew a big project was the wrong starting point.
